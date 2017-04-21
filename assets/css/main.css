@@ -1,0 +1,204 @@
+*{
+	text-decoration: none;
+	box-sizing: border-box;
+	margin: 0;
+}
+
+.container{
+	background-color: #8e7c7e;
+	height: 40px;
+	text-align: center;
+}
+.nav-link{
+	padding-top: 10px;
+	margin-left: 130px;
+	background: #7c6c6e;
+	width: 80%;
+	height: 100%;
+}
+.nav-link li{
+	display: inline-block;
+	list-style: none;
+	cursor: pointer;
+	margin-right: 40px;
+}
+
+.nav-link a{
+	color: white;
+	font-size: 14px;
+}
+
+#contentMenu{
+	background-color: #d30e29;
+	position: relative;
+	height: 80px;
+}
+
+#logo{
+	position: absolute;
+	top: 20px;
+	left: 130px;
+}
+
+#iconPage{
+	position: absolute;
+	font-size: 30px;
+	color: white;
+	top: 20px;
+	left: 500px;
+}
+
+
+#noticias{
+	width: 80%;
+	height: 572px;
+	text-align: center;
+	margin: auto;
+	-webkit-box-shadow: 0px 2px 37px -2px rgba(124,108,110,1);
+	-moz-box-shadow: 0px 2px 37px -2px rgba(124,108,110,1);
+	box-shadow: 0px 2px 37px -2px rgba(124,108,110,1);
+}
+
+#campana{
+	position: fixed;
+	top: 70%;
+	left: 93%;
+	background-color: #e52037;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	cursor: pointer;
+	-webkit-box-shadow: 0px 2px 37px -2px rgba(124,108,110,1);
+	-moz-box-shadow: 0px 2px 37px -2px rgba(124,108,110,1);
+	box-shadow: 0px 2px 37px -2px rgba(124,108,110,1);
+
+}
+#campana img{
+	color: white;
+}
+
+.info-noticia-left{
+	position: relative;
+	width: 65%;
+	height: 560px;
+}
+
+#primera-nt{
+	top:20px;
+	left: 20px;
+	position: absolute;
+	width: 98%;
+	height: 250px;
+	background-color: gray;
+}
+#odebretch-1{
+	left:10px;
+	text-align: left;
+	position: absolute;
+	width: 180px;
+	height: 100%;
+	font-size: 1.6rem;
+}
+
+#odebretch-1 a{
+	color: white;
+}
+
+#spanIcon{
+	bottom: 0;
+	left: 10px;
+	bottom: 10px;
+	font-size: 1.5rem;
+	color: silver;
+	position: absolute;
+}
+
+#odebretch{
+	right: 0;
+	position: absolute;
+}
+
+
+#segunda-nt{
+	margin-top: 300px;
+	left: 20px;
+	position: absolute;
+	width: 312px;
+	height: 270px;
+	background-color: gray;
+}
+
+
+
+#tercera-nt{
+	margin-top: 300px;
+	right: 0px;
+	position: absolute;
+	width: 312px;
+	height: 270px;
+	background-color: gray;
+}
+
+.info-noticia-rigth{
+	top: 120px;
+	right: 145px;
+	position: absolute;
+	border: 1px solid black;
+	width: 310px;
+	height: 560px;
+}
+
+#spanIcon2{
+	bottom: 0;
+	right: 10px;
+	font-size: 1.5rem;
+	color: silver;
+	position: absolute;
+}
+
+
+.info a {
+	color: white;
+	font-size: 1.4rem;
+}
+
+.info{
+ text-align: left;
+	position: absolute;
+	left: 10px;
+}
+
+#primera-nt-r{
+	margin-top: 20px;
+}
+#primera-nt-r h1{
+	text-align: left;
+	color: red;
+	bottom: 0;
+}
+#anuncio{
+	background-color: red;
+	position:relative;
+	height: 60px;
+	text-align: left;
+}
+
+#anuncio a{
+ 	position: absolute;
+ 	top: 20px;
+ 	left: 10px;
+	font-size: 1.5rem;
+	color: white;
+}
+
+#anuncio span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+#anuncioprom{
+	bottom: 0;
+	position: absolute;
+	width: 100%;
+}
